@@ -1,0 +1,23 @@
+{
+	"name": "Plans + Notes",
+
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"bierner.markdown-mermaid",
+				"mhutchie.git-graph"
+			]
+		}
+	}
+}
