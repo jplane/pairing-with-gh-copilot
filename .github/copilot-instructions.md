@@ -18,10 +18,21 @@
 - Create one coding notes file per plan, in `docs/notes` with naming convention `<plan-file-name>-notes.md`
    - Include a link to the plan file
 - When you complete implementation for a plan phase, create a notes entry in the notes file for the plan and summarize the completed work as follows:
-   - Phase name
-   - Timestamp (`YYYY-MM-DDThh:mm:ss`)
-   - Name of person who initiated the change
-   - Major files added, updated, removed
-   - Major features added, updated, removed
-   - Noteworthy use of patterns, abstractions, data structures, algorithms, etc.
-   - Governing design principles
+
+   ```markdown
+   ## Phase <phase-number>: <phase-name>
+   - Completed on: <YYYY-MM-DD-hh:mm:ss>
+   - Completed by: <name>
+
+   ### Major files added, updated, removed
+   <list of files and brief summary of changes>
+
+   ### Major features added, updated, removed
+   <list of features and brief summary of changes>
+
+   ### Patterns, abstractions, data structures, algorithms, etc.
+   <list of patterns, abstractions, data structures, algorithms, etc. and brief summary of changes>
+
+   ### Governing design principles
+   <list of design principles and brief summary of changes>
+   ```
