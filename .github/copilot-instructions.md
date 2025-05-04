@@ -21,8 +21,8 @@
 
    ```markdown
    ## Phase <phase-number>: <phase-name>
-   - Completed on: <YYYY-MM-DD-hh:mm:ss>
-   - Completed by: <name>
+   - Completed on: <current UTC date and time>
+   - Completed by: <name of the person who completed the phase, not Copilot>
 
    ### Major files added, updated, removed
    <list of files and brief summary of changes>
