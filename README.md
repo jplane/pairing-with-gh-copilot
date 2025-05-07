@@ -1,8 +1,8 @@
-# Plan and Note Demo
+# Structured Pair Programming with GitHub Copilot
 
 **TL/DR**
 
-[Brief video of structured pair programming with GitHub Copilot](https://1drv.ms/v/c/54ec5d133de5c768/EUdh89xkHppMv3SPShvOTFcB7zD7GbI9UCk5lHCMAq7ong)
+[Brief video demonstration](https://1drv.ms/v/c/54ec5d133de5c768/EUdh89xkHppMv3SPShvOTFcB7zD7GbI9UCk5lHCMAq7ong)
 
 ## Summary
 
