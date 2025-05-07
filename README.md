@@ -8,9 +8,7 @@
 
 Many approaches to LLM-powered software development center around the vibe coding pattern:
 
-```
-Generate a lot of code, as quickly as possible... then spend multiples of that time debugging and fixing it. Hopefully.
-```
+    Generate a lot of code, as quickly as possible... then spend multiples of that time debugging and fixing it. Hopefully.
 
 'Spray-and-pray' wasn't a particularly useful strategy for high-quality software development _before_ LLMs. 'Spray-and-pray-faster (with an LLM)' is not, either.
 
@@ -40,7 +38,7 @@ See additional documentation for copilot instructions [here](https://docs.github
 
 #### Creating a Plan
 
-```
+```md
 Create a plan to build a simple web application that allows users to create and manage to-do lists. The application should have the following features:
 
 1. User authentication (sign up, login, logout)
@@ -54,7 +52,7 @@ Use the latest version of React and Node.js for the frontend and backend, respec
 Only create a plan. Don't implement any code yet.
 ```
 
-```
+```md
 I want a Python REST API for capturing real-time stats of a soccer match. Support capture of goals, assists, successful or unsuccessful passes and dribbles, fouls given and received, yellow and red cards, and substitutions.
 
 Use Flask and connexion for REST API support, and include Swagger UI. Add OpenTelemetry for observability. Use uvicorn for hosting, and SQLAlchemy and SQLite for database persistence. Be sure to get the latest versions of these libraries.
@@ -62,7 +60,7 @@ Use Flask and connexion for REST API support, and include Swagger UI. Add OpenTe
 Just create a plan, don't write any code yet.
 ```
 
-```
+```md
 Write a plan to implement a .NET Web API for tracking purchase orders. Use the minimal API style for .NET 9.
 
 Use the business requirements outlined in `<path_to_requirements_doc>` to guide the design of the API, in alignment with desired functionality.
@@ -74,20 +72,20 @@ Don't write the code yet, just create a plan.
 
 #### Implementing a Plan
 
-```
+```md
 Implement phase 1 of the plan.
 ```
 
-```
+```md
 Perform tasks 1.1 and 1.2 of `docs/plans/do-the-thing.md`.
 ```
 
 #### Reviewing Progress
 
-```
+```md
 Summarize the code changes made yesterday.
 ```
 
-```
+```md
 Summarize all the changes to date for the observability layer.
 ```
