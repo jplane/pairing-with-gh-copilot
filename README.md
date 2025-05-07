@@ -8,7 +8,7 @@
 
 Many approaches to LLM-powered software development center around the vibe coding pattern:
 
-    Generate a lot of code, as quickly as possible... then spend multiples of that time debugging and fixing it. Hopefully.
+_Generate a lot of code, as quickly as possible... then spend multiples of that time debugging and fixing it. Hopefully._
 
 'Spray-and-pray' wasn't a particularly useful strategy for high-quality software development _before_ LLMs. 'Spray-and-pray-faster (with an LLM)' is not, either.
 
